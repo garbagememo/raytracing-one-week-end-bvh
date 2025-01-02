@@ -1,7 +1,15 @@
-pub mod camera;
+mod camera;
 
-pub mod aabb;
-pub mod ray;
-pub mod scatter;
-pub mod sphere;
-pub mod vec3;
+mod aabb;
+mod ray;
+mod scatter;
+mod sphere;
+mod vec3;
+
+pub use camera::*;
+pub use aabb::*;
+pub use ray::*;
+pub use scatter::*;
+pub use sphere::*;
+pub use vec3::*;
+//pub mod minmax;
